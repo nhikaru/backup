@@ -1,0 +1,47 @@
+<!DOCTYPE HTML>
+<html lang="ja">
+<head>
+    <meta charset="utf-8">
+    <title>フォーム復</title>
+    
+</head>
+<body>
+<form>
+    
+<select name="age">
+<option value="a">選択してください</option>
+    <script>
+    for(var i=18;i<=65;i++){
+        document.write("<option value='a'>");
+        document.write(i+"歳");
+        document.write("</option>");
+    }
+    </script>
+</select>
+    
+<select name="height">
+<option value="b">身長</option>
+    <script>
+    for(var i=120;i<=200;i++){
+        document.write("<option value='b'>");
+        document.write(i+"cm");
+        document.write("</option>");
+    }
+    </script>
+</select>
+    
+<select name="weight">
+    <option value="c">体重</option>
+    <script>
+    for(var i=35;i<=140;i++){
+        document.write("<option value='c'>");
+        document.write(i+"kg");
+        document.write("</option>");
+    }
+    </script>
+</select> 
+</form>    
+</body>
+    
+    
+</html>

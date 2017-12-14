@@ -1,0 +1,18 @@
+$(function(){
+    $("img")
+    //マウスを乗せたときの動き    
+        .hover(function(){
+            $(this).animate({
+                "width":'220px',
+                "height":'150px',
+                "margin-top":'-32px'
+                });
+            },
+    //マウスを外したときの動き           
+    function(){
+        $(this).animate({
+            'width':'100px',
+            'height':'100px',
+            'marginTop':'0px'});
+    });
+});

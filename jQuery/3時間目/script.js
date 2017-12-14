@@ -1,0 +1,21 @@
+/*$(function(){
+    $("h1").click(function(){
+      $("p").fadeOut();
+      });
+});
+$(function(){
+    $("div").click(function(){
+        $("p").css("color","blue");
+  });
+});
+
+$(function(){
+    $(".total").click(function(){
+        $("p").text("20");
+  });
+});*/
+$(function(){
+    $(".boxA").click(function(){
+        $(".boxB").hide();
+  });
+});
