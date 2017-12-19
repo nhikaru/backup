@@ -9,5 +9,9 @@ public class Person {
 	public void setName(String name){
 		this.name=name;
 	}
-
+	//アレンジ
+	public Person(String name,int age){
+		this.name=name;
+		this.age=age;
+	}
 }
