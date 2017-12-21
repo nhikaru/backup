@@ -11,6 +11,8 @@ public class Person {
 	public int age =0;
 	public String phoneNumber=null;
 	public String address=null;
+	public String job=null;
+	public int salary=0;
 
 	public void talk(){
 		System.out.println(this.name+"が話す");
