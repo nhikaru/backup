@@ -1,0 +1,7 @@
+
+public interface Mp3 {
+	void play();
+	void stop();
+	void next();
+	void back();
+}

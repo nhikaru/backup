@@ -26,7 +26,7 @@ public class Test {
 		System.out.println(taro.phoneNumber);
 		System.out.println(taro.address);
 		System.out.println(taro.job);
-		System.out.println(taro.salary);
+		System.out.println("年収"+taro.salary+"円");
 
 		Person hikaru=new Person();
 		hikaru.name="永田光";
@@ -40,7 +40,7 @@ public class Test {
 		System.out.println(hikaru.phoneNumber);
 		System.out.println(hikaru.address);
 		System.out.println(hikaru.job);
-		System.out.println(hikaru.salary);
+		System.out.println("年収"+hikaru.salary+"円");
 
 		Person jiro=new Person();
 		jiro.name="木村次郎";
@@ -54,7 +54,7 @@ public class Test {
 		System.out.println(jiro.phoneNumber);
 		System.out.println(jiro.address);
 		System.out.println(jiro.job);
-		System.out.println(jiro.salary);
+		System.out.println("年収"+jiro.salary+"円");
 
 		Person hanako=new Person();
 		hanako.name="鈴木花子";
@@ -68,9 +68,9 @@ public class Test {
 		System.out.println(hanako.phoneNumber);
 		System.out.println(hanako.address);
 		System.out.println(hanako.job);
-		System.out.println(hanako.salary);
+		System.out.println("年収"+hanako.salary+"円");
 
-		/*taro.talk();
+		taro.talk();
 		hikaru.run();
 		hanako.walk();
 
@@ -88,7 +88,7 @@ public class Test {
 		asimo.talk();
 		asimo.walk();
 		pepper.talk();
-		aibo.run();*/
+		aibo.run();
 
 
 	}

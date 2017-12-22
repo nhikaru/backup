@@ -30,6 +30,9 @@ public class Test {
 		System.out.println(hanako.name);
 		System.out.println(hanako.age);
 
+		Person ichiro=new Person(44);
+		System.out.println(ichiro.name);
+		System.out.println(ichiro.age);
 	}
 
 }
