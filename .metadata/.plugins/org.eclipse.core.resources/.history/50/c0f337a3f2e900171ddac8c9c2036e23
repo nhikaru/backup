@@ -1,0 +1,20 @@
+
+public class Car {
+//フィールド
+public int speed;
+public double gas;
+
+//メソッド
+//加速させるメソッド
+public void speedUp(int sp){
+	//ガソリンを減らす
+	this.gas -= sp/10.0;
+	if(this.gas<0){//ガソリンがマイナスになる場合
+	//ガソリンを0に補正し、スピードを増やさない
+	this.gas = 0;
+	}else{
+		//スピードを増やす
+		this.speed += sp;
+	}
+}
+}
