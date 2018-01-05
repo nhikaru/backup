@@ -139,7 +139,7 @@ public void insert(int user_id,String name,String password){
 	String sql="insert into test_table values(?,?,?)";
 	try{
 		PreparedStatement ps=con.prepareStatement(sql);
-		ps.setInt(1, user_id);;
+		ps.setInt(1, user_id);
 		ps.setString(2, name);
 		ps.setString(3, password);
 		int i=ps.executeUpdate();
