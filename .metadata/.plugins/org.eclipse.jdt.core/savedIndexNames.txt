@@ -1,10 +1,2 @@
 INDEX VERSION 1.127+C:\Users\internousdev\Desktop\workspace\workspace-nagata\backup\.metadata\.plugins\org.eclipse.jdt.core
-3361583387.index
-3177227981.index
-2795787554.index
-1499124797.index
-4251453114.index
-3893018766.index
-3286523523.index
-2859933352.index
-4273827215.index
+1549101164.index
