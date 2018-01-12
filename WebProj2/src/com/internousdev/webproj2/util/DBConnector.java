@@ -9,9 +9,9 @@ public class DBConnector {
 	 */
 	private static String driverName="com.mysql.jdbc.Driver";
 	/**
-	 * データベース接続URL
+	 * データベース接続URLコロンとセミコロンに注意
 	 */
-	private static String url="jdbc:mysql;//localhost/testdb";
+	private static String url="jdbc:mysql://localhost/testdb";
 	/**
 	 * データベース接続ユーザ名
 	 */
