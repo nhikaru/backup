@@ -3,10 +3,9 @@ import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
 
-
 public class DBConnector {
-	public static String driverName="com.mysql.jdbc.Driver";
-	public static String url="jdbc:mysql://localhost/ecsite";
+	private static String driverName="com.mysql.jdbc.Driver";
+	private static String url="jdbc:mysql://localhost/ecsite";
 
 	private static String user="root";
 	private static String password="mysql";

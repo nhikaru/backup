@@ -4,7 +4,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
 <meta http-equiv="Content-Style-Type" content="text/css"/>
 <meta http-equiv="Content-Script-Type" content="text/javascript"/>
 <meta http-equiv="imagetoolbar" content="no"/>
@@ -31,9 +31,9 @@ margin:0 auto;
 }
 /*=ID LAYOUT=*/
 #top{
-width:100%;
-height:80px;
-background-color:black;
+width:780px;
+margin:30px auto;
+border:1px solid #333;
 }
 
 #header{
@@ -66,14 +66,13 @@ clear:both;
 		<div>
 			<h3>商品を購入する際にはログインをお願いします。</h3>
 			<s:form action="LoginAction">
-			<s:textfield name="loginUserID"/>
+			<s:textfield name="loginUserId"/>
 			<s:password name="loginPassword"/>
 			<s:submit value="ログイン"/>
 			</s:form>
 			<br/>
 			<div>
-				<span>新規ユーザー登録は
-					<a href ='<s:url action="UserCreateAction"/>'>こちら</a>
+				<span>新規ユーザー登録は<a href ='<s:url action="UserCreateAction"/>'>こちら</a>
 					</span>
 				</div>
 			</div>

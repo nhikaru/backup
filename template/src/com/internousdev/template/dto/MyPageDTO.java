@@ -5,6 +5,7 @@ public class MyPageDTO {
 	private String totalPrice;
 	private String totalCount;
 	private String payment;
+	//public String userName;
 
 	public String getItemName(){
 		return this.itemName;
@@ -13,7 +14,7 @@ public class MyPageDTO {
 		this.itemName=itemName;
 	}
 	public String getTotalPrice(){
-		return this.totalPrice;
+		return  this.totalPrice;
 	}
 	public void setTotalPrice(String totalPrice){
 		this.totalPrice=totalPrice;
@@ -31,4 +32,11 @@ public class MyPageDTO {
 		this.payment=payment;
 	}
 
+	/*public String getUserName(){
+		return userName;
+	}
+	public void setUserName(String userName)
+	{
+		this.userName=userName;
+	}*/
 }

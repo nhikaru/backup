@@ -19,11 +19,11 @@ public class BuyItemConfirmAction extends ActionSupport implements SessionAware{
 				session.get("stock").toString(),
 				session.get("pay").toString());
 
-		result =SUCCESS;
+		result = SUCCESS;
 		return result;
 	}
 	@Override
-	public void setSession(Map<String,Object> session){
+	public void setSession(Map<String, Object> session){
 		this.session=session;
 	}
 }

@@ -21,7 +21,7 @@ line-height:1.6;
 letter-spacing:1px;
 font-family:Verdana,Helvetica,sans-serif;
 font-size:12px;
-color#333;
+color:#333;
 background:#fff;
 }
 
@@ -65,8 +65,8 @@ clear:both;
 		<p>UserCreate</p>
 	</div>
 	<div>
-	<s:if test="errorMassage!=">
-		<s:property value="errorMassage" escape="false"/>
+	<s:if test="errorMessage!=">
+		<s:property value="errorMessage" escape="false"/>
 	</s:if>
 	<table>
 	<s:form action="UserCreateConfirmAction">

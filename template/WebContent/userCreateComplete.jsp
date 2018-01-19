@@ -20,7 +20,7 @@ padding:0;
 line-height:1.6;
 letter-spacing:1px;
 font-family:Verdana,Helvetica,sans-serif;
-font-sixe:12px;
+font-size:12px;
 color:#333;
 background:#fff;
 }
@@ -65,7 +65,7 @@ clear:both;
 		<div id="top">
 			<p>UserCreateComplete</p>
 		</div>
-		<div>
+		<div><br>
 			<h3>ユーザー登録が完了致しました。</h3>
 		<div>
 			<a href='<s:url action="HomeAction"/>'>ログインへ</a>

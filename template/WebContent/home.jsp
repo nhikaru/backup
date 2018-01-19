@@ -6,7 +6,7 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <meta http-equiv="Content-Style-Type" content="text/css" />
-<meta http-equiv="Content-Script-Type" content="text/jacascript"/>
+<meta http-equiv="Content-Script-Type" content="text/javascript"/>
 <meta http-equiv="imagetoolbar" content="no" />
 <meta name="description" content="" />
 <meta name="keywords" content=""/>
@@ -43,7 +43,7 @@ background-color:black;
 }
 
 #main{
-width;100%;
+width:100%;
 height:500px;
 text-align:center;
 }
