@@ -1,0 +1,12 @@
+127.0.0.1 - - [24/Jan/2018:11:43:55 +0900] "GET / HTTP/1.1" 404 1019
+0:0:0:0:0:0:0:1 - - [24/Jan/2018:11:43:58 +0900] "GET /template/ HTTP/1.1" 200 1521
+0:0:0:0:0:0:0:1 - - [24/Jan/2018:11:44:01 +0900] "POST /template/HomeAction.action;jsessionid=7972D6ACA4D2CDCBB6305FB8C7A55D73 HTTP/1.1" 200 1964
+0:0:0:0:0:0:0:1 - - [24/Jan/2018:11:44:12 +0900] "GET /template/UserCreateAction.action HTTP/1.1" 200 2077
+0:0:0:0:0:0:0:1 - - [24/Jan/2018:11:44:21 +0900] "POST /template/UserCreateConfirmAction.action HTTP/1.1" 200 2113
+0:0:0:0:0:0:0:1 - - [24/Jan/2018:11:44:24 +0900] "POST /template/UserCreateCompleteAction.action HTTP/1.1" 200 1357
+0:0:0:0:0:0:0:1 - - [24/Jan/2018:11:44:25 +0900] "GET /template/HomeAction.action HTTP/1.1" 200 1964
+0:0:0:0:0:0:0:1 - - [24/Jan/2018:11:44:30 +0900] "POST /template/LoginAction.action HTTP/1.1" 200 2503
+0:0:0:0:0:0:0:1 - - [24/Jan/2018:11:44:35 +0900] "POST /template/BuyItemAction.action HTTP/1.1" 200 1963
+0:0:0:0:0:0:0:1 - - [24/Jan/2018:11:44:36 +0900] "POST /template/BuyItemConfirmAction.action HTTP/1.1" 200 1437
+0:0:0:0:0:0:0:1 - - [24/Jan/2018:11:44:37 +0900] "GET /template/MyPageAction.action HTTP/1.1" 200 2368
+0:0:0:0:0:0:0:1 - - [24/Jan/2018:11:44:39 +0900] "POST /template/MyPageAction.action HTTP/1.1" 200 1509
