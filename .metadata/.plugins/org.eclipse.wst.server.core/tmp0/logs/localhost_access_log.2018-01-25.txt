@@ -60,3 +60,16 @@
 0:0:0:0:0:0:0:1 - - [25/Jan/2018:17:45:03 +0900] "POST /WebProj5/TestAction.action HTTP/1.1" 200 404
 0:0:0:0:0:0:0:1 - - [25/Jan/2018:17:45:42 +0900] "GET /WebProj5/TestAction.action?username=asdfghjkl&password=zxcvbnm HTTP/1.1" 200 412
 0:0:0:0:0:0:0:1 - - [25/Jan/2018:17:46:25 +0900] "POST /WebProj5/TestAction.action HTTP/1.1" 200 471
+127.0.0.1 - - [25/Jan/2018:17:56:37 +0900] "GET / HTTP/1.1" 404 1019
+0:0:0:0:0:0:0:1 - - [25/Jan/2018:17:56:40 +0900] "GET /template2/ HTTP/1.1" 200 1634
+0:0:0:0:0:0:0:1 - - [25/Jan/2018:17:56:42 +0900] "POST /template2/HomeAction.action;jsessionid=A0D4AE3E264C21B625DBA70807316CD8 HTTP/1.1" 200 2036
+0:0:0:0:0:0:0:1 - - [25/Jan/2018:17:56:44 +0900] "GET /template2/UserCreateAction.action HTTP/1.1" 200 2304
+0:0:0:0:0:0:0:1 - - [25/Jan/2018:17:56:54 +0900] "POST /template2/UserCreateConfirmAction.action HTTP/1.1" 200 2088
+0:0:0:0:0:0:0:1 - - [25/Jan/2018:17:56:56 +0900] "POST /template2/UserCreateCompleteAction.action HTTP/1.1" 200 1419
+0:0:0:0:0:0:0:1 - - [25/Jan/2018:17:56:57 +0900] "GET /template2/HomeAction.action HTTP/1.1" 200 2036
+0:0:0:0:0:0:0:1 - - [25/Jan/2018:17:57:02 +0900] "POST /template2/LoginAction.action HTTP/1.1" 200 2715
+0:0:0:0:0:0:0:1 - - [25/Jan/2018:17:57:09 +0900] "POST /template2/BuyItemAction.action HTTP/1.1" 200 1912
+0:0:0:0:0:0:0:1 - - [25/Jan/2018:17:57:10 +0900] "POST /template2/BuyItemConfirmAction.action HTTP/1.1" 200 1438
+0:0:0:0:0:0:0:1 - - [25/Jan/2018:17:57:12 +0900] "GET /template2/MyPageAction.action HTTP/1.1" 200 2236
+0:0:0:0:0:0:0:1 - - [25/Jan/2018:17:57:13 +0900] "POST /template2/MyPageAction.action HTTP/1.1" 200 1461
+0:0:0:0:0:0:0:1 - - [25/Jan/2018:17:57:15 +0900] "GET /template2/HomeAction.action HTTP/1.1" 200 2036
