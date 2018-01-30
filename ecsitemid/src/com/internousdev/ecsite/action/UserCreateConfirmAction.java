@@ -35,7 +35,7 @@ public class UserCreateConfirmAction extends ActionSupport implements SessionAwa
 		this.loginUserId=loginUserId;
 	}
 
-	public String getLogintPassword(){
+	public String getLoginPassword(){
 		return loginPassword;
 	}
 	public void setLoginPassword(String loginPassword){
