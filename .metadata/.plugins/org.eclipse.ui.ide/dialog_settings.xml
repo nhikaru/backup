@@ -12,8 +12,12 @@
 		<item value="false" key="WizardProjectsImportPage.STORE_COPY_PROJECT_ID"/>
 		<item value="false" key="WizardProjectsImportPage.STORE_ARCHIVE_SELECTED"/>
 		<list key="WizardProjectsImportPage.STORE_DIRECTORIES">
+<<<<<<< HEAD
 			<item value="C:\pleiades\workspace\testknit"/>
 			<item value="C:\pleiades\workspace\backup\testknit"/>
+=======
+			<item value="C:\Users\internousdev\Desktop\workspace\workspace-nagata\backup\ecsample"/>
+>>>>>>> baf6824f0eb79279c4b69b582a021ebae97e4f56
 			<item value="C:\Users\internousdev\Desktop\workspace\workspace-nagata\backup\template2"/>
 			<item value="C:\Users\internousdev\Desktop\workspace\workspace-nagata\template2"/>
 		</list>

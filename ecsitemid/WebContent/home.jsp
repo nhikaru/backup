@@ -4,13 +4,13 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
 <meta http-equiv="Content-Style-Type" content="text/css"/>
 <meta http-equiv="Content-Script-Type" content="text/javascript"/>
 <meta http-equiv="imagetoolbar" content="no"/>
 <meta name="description" content=""/>
 <meta name="keywords" content=""/>
-<title>home画面</title>
+<title>Home画面</title>
 
 <style type="text/css">
 	body{
@@ -18,7 +18,7 @@
 	padding:0;
 	line-height:1.6;
 	letter-spacing:1px;
-	font-family:Verdaba,Helvetica,sans-serif;
+	font-family:Verdana, Helvetica, sans-serif;
 	font-size:12px;
 	color:#333;
 	background:#fff;
@@ -50,7 +50,7 @@
 	clear:both;
 	}
 	#text-center{
-	display:inline-black;
+	display:inline-block;
 	text-align:center;
 	}
 	</style>
@@ -68,8 +68,8 @@
 			<s:form action="HomeAction">
 				<s:submit value="商品購入"/>
 			</s:form>
-			<s:if test="#session.id!=null">
-				<p>ログアウトする場合は<a href ='<s:url action="LogoutAction"/>'>こちら</a></p>
+			<s:if test="#session.id != null">
+				<p>ログアウトする場合は<a href='<s:url action="LogoutAction" />'>こちら</a></p>
 			</s:if>
 		</div>
 	</div>

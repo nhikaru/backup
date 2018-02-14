@@ -1,1 +1,13 @@
+<<<<<<< HEAD
 INDEX VERSION 1.3+C:\pleiades\workspace\backup\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+=======
+INDEX VERSION 1.3+C:\Users\internousdev\Desktop\workspace\workspace-nagata\backup\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+553795790.index
+3644325322.index
+478846144.index
+153159687.index
+284395787.index
+4076741880.index
+363528403.index
+1411795347.index
+>>>>>>> baf6824f0eb79279c4b69b582a021ebae97e4f56
